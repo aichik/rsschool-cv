@@ -1,6 +1,6 @@
 # Aek Vartanyan
 
-![My Image](/img/my_img.jpg "It's me")
+![My Image](img/my_img.jpg "It's me")
 
 ## My Contacts:
 
@@ -13,17 +13,17 @@
 
 ## My Skills:
 
-- **HTML, HTML5** ✅
-- **CSS, CSS3, SCSS** ✅
-- **HTML Email, HTML Template** ✅
-- **Clean HTML Semantic Markup** ✅
-- **Cross-Browser Compatibility (Chrome, Firefox, Safari)** ✅
-- **Coding to W3C Web Standards** ✅
-- **Responsive Web Design, Mobile-First Development, Pixel Perfect Development** ✅
-- **Version Control System (GIT)** ✅
-- **BEM** ✅
-- **JavaScript** ✅
-- **Mailchimp** ✅
+- ✅ **HTML, HTML5**
+- ✅ **CSS, CSS3, SCSS**
+- ✅ **HTML Email, HTML Template**
+- ✅ **Clean HTML Semantic Markup**
+- ✅ **Cross-Browser Compatibility (Chrome, Firefox, Safari)**
+- ✅ **Coding to W3C Web Standards**
+- ✅ **Responsive Web Design, Mobile-First Development, Pixel Perfect Development**
+- ✅ **Version Control System (GIT)**
+- ✅ **BEM**
+- ✅ **JavaScript**
+- ✅ **Mailchimp**
 
 ## My Code on Codewars:
 
