@@ -6,59 +6,139 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
+  <link rel="manifest" href="assets/icon/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap" rel="stylesheet">
+  <title>CV</title>
+  <!--  -->
 </head>
 
 <body>
-  # Aek Vartanyan
 
-  ![My Image](img/my_img.jpg "It's me")
+  <header class="header">
+    <div class="wrapper">
+      <div class="burger"></div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts">My Contacts</a></li>
+          <li class="nav-item"><a href="#about">About Me</a></li>
+          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item"><a href="#code">My Code</a></li>
+          <li class="nav-item"><a href="#projects">My Project</a></li>
+          <li class="nav-item"><a href="#education">My Education</a></li>
+          <li class="nav-item"><a href="#english">My English Level</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-  ## My Contacts:
+  <main class="main">
+    <section class="personal">
+      <img src="assets/img/image.jpg" alt="My Image" class="personal-logo">
+      <div class="personal-description">
+        <h1 class="personal-title">Aek Vartanyan</h1>
+        <h3 class="personal-subtitle">Junior Front-End Developer</h3>
+      </div>
+    </section>
+    <div class="wrapper">
+      <section class="section" id="contacts">
+        <h2 class="title">My Contacts:</h2>
+        <ul class="list">
+          <li class="list-item">
+            Samara, Russia
+          </li>
+          <li class="list-item">
+            My email: <a href="mailto:aichik.personal@gmail.com" title="email">aichik.person@gmail.com</a>
+          </li>
+          <li class="list-item">
+            My Discord: <a href="https://discord.gg/JheTrMMZPf" title="discrod">aichik#6276</a>
+          </li>
+          <li class="list-item">
+            Github: <a href="https://github.com/aichik" title="github">aichik</a>
+          </li>
+        </ul>
+      </section>
 
-  **My Discord:** _Aek Vartanian (@aichik)_
-  **My email:** _aichik.person@gmail.com_
+      <section class="section" id="about">
+        <h2 class="title">About Me:</h2>
+        <p>
+          I'm a Web Developer. I have excellent and different knowledge in front-end development. I work on building
+          semantic HTML and CSS code which is according to W3C standards. I consider myself a person who follows the
+          best and modern web development practices. I always do my best!
+        </p>
+      </section>
 
-  ## About Me:
+      <section class="section" id="skills">
+        <h2 class="title">My Skills:</h2>
+        <ul class="list">
+          <li class="item">
+            HTML, HTML5
+          </li>
+          <li class="item">
+            CSS, CSS3, SCSS
+          </li>
+          <li class="item">
+            HTML Email, HTML Template
+          </li>
+          <li class="item">
+            Clean HTML Semantic Markup
+          </li>
+          <li class="item">
+            Cross-Browser Compatibility (Chrome, Firefox, Safari)
+          </li>
+          <li class="item">
+            Coding to W3C Web Standards
+          </li>
+          <li class="item">
+            Version Control System (GIT)
+          </li>
+          <li class="item">
+            BEM
+          </li>
+          <li class="item">
+            JavaScript
+          </li>
+          <li class="item">
+            Mailchimp
+          </li>
+        </ul>
+      </section>
 
-  **I'm a Web Developer.** I have excellent and different knowledge in _front-end development_. I work on building
-  semantic HTML and CSS code which is according to W3C standards. I consider myself a person who follows the best and
-  modern web development practices. **_I always do my best!_**
+      <section class="section">
+        <h2 class="title" id="education">My Education:</h2>
+        <h4 class="title">My Courses:</h4>
+        <p>Incomplete Higher Education. Took courses markup on freecodecamp.</p>
+        <h4 class="title" id="english">My English Level:</h4>
+        <p>B1 - Pre-Intermediate</p>
+      </section>
 
-  ## My Skills:
+      <section class="section" id="code">
+        <h2 class="title">My Code on Codewars:</h2>
+        <pre><code>function multiply(a, b){
+          return a * b
+          }</code></pre>
+      </section>
 
-  - ✅ **HTML, HTML5**
-  - ✅ **CSS, CSS3, SCSS**
-  - ✅ **HTML Email, HTML Template**
-  - ✅ **Clean HTML Semantic Markup**
-  - ✅ **Cross-Browser Compatibility (Chrome, Firefox, Safari)**
-  - ✅ **Coding to W3C Web Standards**
-  - ✅ **Responsive Web Design, Mobile-First Development, Pixel Perfect Development**
-  - ✅ **Version Control System (GIT)**
-  - ✅ **BEM**
-  - ✅ **JavaScript**
-  - ✅ **Mailchimp**
+      <section class="section" id="projects">
+        <h2 class="title">My Projects:</h2>
+        <p>"CV#1. Markdown & Git". You can get it <a href="https://aichik.github.io/rsschool-cv/cv">on this link</a>
+        </p>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="section-footer">
+      <div><span>Copyright: 2022</span></div>
+      <div><a href="https://github.com/aichik" title="github">GitHub:aichik</a></div>
+      <div class="logo-rss"><a href="https://rs.school/js/"><img src="assets/img/rs_school_js.svg"
+            alt="image course"></a></div>
+    </div>
+  </footer>
 
-  ## My Code on Codewars:
-
-  ```
-  function multiply(a, b){
-  return a * b
-  }
-  ```
-
-  ## My Project:
-
-  **"CV#1. Markdown Git".** You can get it [On This Link](https://aichik.github.io/rsschool-cv/cv "Markdown Git")
-
-  ## Education:
-
-  **Incomplete Higher Education.** Took courses markup on freecodecamp.
-
-  ## English Level:
-
-  **Intermediate.** Took many different courses already. Udemy, Basic English and other.
-
+  <script src="index.js"></script>
 </body>
-
 </html>
